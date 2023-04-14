@@ -1,0 +1,14 @@
+
+container-fluid ->  width: 1920px
+container-> 960px
+
+
+Secondary color: #23232e
+Primary color: #7b77c9
+
+Heading Color: #464b4f
+body text color: #888a8b , font-size: 18px
+Icon Color: #dbdbdb
+
+
+Font-Family: Segoe UI

@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Start Framework */
+p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #888a8b;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pb-90 {
+    padding-bottom: 90px;
+}
+
+.conatiner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: #464b4f;
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* End Framework */
+
+/* Section Title */
+.section-title h2 {
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 700;
+    color: #464b4f;
+    text-align: center;
+}
+
+.section-title h6 {
+    font-size: 30px;
+    line-height: 42px;
+    color: #464b4f;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-transform: none;
+    font-weight: normal;
+    padding: 0 70px;
+
+}
+
+body {
+    background-image: url("../img/bg-pattern.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Start Header */
+header {
+    color: #fff;
+    text-align: center;
+    background-color: #23232e;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+header img {
+    width: 115px;
+    height: 115px;
+    margin-bottom: 120px;
+}
+
+header h1 {
+    font-size: 80px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+header p {
+
+    margin-bottom: 120px;
+    color: #fff;
+}
+
+header a {
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: .3s;
+
+}
+
+header a:hover {
+    background-color: #7b77c9;
+    color: #fff;
+    border: 2px solid transparent;
+}
+
+/* End Header */
+
+/* Start section what i do */
+
+.whatIDo {
+    text-align: center;
+}
+
+.whatIDo h6 {
+    font-size: 30px;
+    line-height: 42px;
+    color: #464b4f;
+    margin-bottom: 50px;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-transform: none;
+}
+
+.what {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.what h6 {
+    text-transform: uppercase;
+    font: weight 700px;
+    ;
+}
+
+.single_item {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 30%;
+}
+
+.single_item h6 {
+    font-size: 18px;
+    margin: 0;
+
+}
+
+/*End section what i do */
+
+/* Start My Work */
+
+.mywork {
+    background-color: #23232e;
+}
+
+.mywork h2 {
+    color: #fff;
+}
+
+.work-menu {
+    margin-top: 50px;
+    margin-bottom: 60px;
+
+
+}
+
+.work-menu a {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0 25px;
+    display: inline-block;
+}
+
+.work-menu a:hover {
+    border-bottom: 1px solid #7b77c9;
+
+}
+
+.workItems,
+.photographyItems {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.work-item,
+.photo-item {
+    width: 33%;
+    margin-bottom: 30px;
+}
+
+.work-item img {
+    margin-bottom: 15px;
+}
+
+.work-item h5 {
+    font-size: 21px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: none;
+    margin-bottom: 10px;
+}
+
+.work-item span {
+    font-size: 14px;
+    font-weight: 400px;
+    color: #818181;
+
+}
+
+.site-btn {
+
+    padding: 20px 50px;
+    font-size: 18px;
+    font-weight: 400px;
+    text-transform: capitalize;
+    background: #7b77c9;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease-in-out;
+    color: #fff;
+}
+
+.site-btn:hover {
+    background: #7b77c9;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+}
+
+.mywork_btn {
+    margin-top: 70px;
+}
+
+/* End My Work */
+
+/* Start Photography */
+.site-btn-white:hover {
+    background-color: #23232e;
+    color: #fff;
+}
+
+.photography_btn {
+    margin-top: 50px;
+}
+
+/* End Photography */
+
+/* Start Subscribe */
+.subscribe {
+    background-color: #23232e;
+    padding: 150px 0px;
+}
+
+.subs_content {
+    margin-bottom: 60px;
+
+}
+
+.subs_content,
+.fa-infinityi {
+    color: #fff;
+    font-size: 80px;
+    margin-bottom: 60px;
+}
+
+.subs_content p {
+    color: #fff;
+}
+
+.subscribe_form input {
+
+    width: 380px;
+    border: none;
+    border-radius: 5px;
+    padding: 22.5px;
+    margin-right: 10px;
+
+}
+
+.subscribe_form button {
+    color: #fff;
+}
+
+/* End Subscribe */
+
+/* Footer */
+.footer {
+    padding: 100px 0px;
+}
+
+.social_icons {
+    margin-bottom: 80px;
+
+}
+
+.social_icons a {
+    font-size: 60px;
+    font-weight: 400px;
+    padding: 0 20px;
+    color: #dbdbdd;
+}
+
+
+
+/* Media Query for Responsive */
+/* Tablet */
+@media screen and (max-width:768px) {
+    .work-item {
+        width: 50%;
+    }
+
+    .photo-item {
+        width: 50%;
+    }
+
+}
+
+
+/* Mobile */
+@media screen and (max-width:600px) {
+    header h1 {
+        font-size: 50px;
+    }
+
+    p>br {
+        display: none;
+    }
+
+    header img,
+    header p {
+
+        margin-bottom: 80px;
+    }
+
+    .whatIDo h6 {
+        font-size: 22px;
+    }
+
+    .section-title h2 {
+
+        font-size: 50px;
+
+    }
+
+    .section-title h6 {
+        font-size: 25px;
+        padding: 0 25px;
+    }
+
+    .single_item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .work-menu a {
+        margin: 0 15px;
+        margin-bottom: 15px;
+    }
+
+    .work-item {
+        width: 100%;
+    }
+
+    .photo-item {
+        width: 100%;
+    }
+
+    .subscribe_form input {
+        width: 370px;
+    }
+
+    .subscribe_form button {
+        margin-top: 30px;
+        width: 50%;
+    }
+}
